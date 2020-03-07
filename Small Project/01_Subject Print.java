@@ -22,8 +22,6 @@ public class subjectPrint
 
 		// Print
 		for (int i = 0; i < dataNum; i++)
-		{
 			System.out.println(subject[i] + "  " + credit[i]);
-		}
 	}
 }
