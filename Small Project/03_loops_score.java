@@ -12,15 +12,15 @@ public class loops_score
 	 */
 	public static void main(String[] args)
 	{
-		JOptionPane.showMessageDialog (null, "¸Óµ{¦¡¦b¨Ï¥ÎªÌ¿é¤J¤À¼Æ«á¡A¯à­pºâ¥X\n"
-										   + "¥­§¡¤À¼Æ¡B¤Î®æ¡B¤£¤Î®æ¤H¼Æµ¥¸ê°T\n");
+		JOptionPane.showMessageDialog (null, "è©²ç¨‹å¼åœ¨ä½¿ç”¨è€…è¼¸å…¥åˆ†æ•¸å¾Œï¼Œèƒ½è¨ˆç®—å‡º\n" + 
+					             "å¹³å‡åˆ†æ•¸ã€åŠæ ¼ã€ä¸åŠæ ¼äººæ•¸ç­‰è³‡è¨Š\n");
 		double score = 0, sum = 0;
 		int studentsNum = 0, lower60 = 0, higher60 = 0, judge;
 	    do
 	    {
 	    	while (true)
 	    	{
-		    	String input = JOptionPane.showInputDialog ("½Ğ¿é¤J¤@­Ó 0~100 ªº¤À¼Æ\n­Y¿é¤J½d³ò¿ù»~¡A«h¶·­«·s¿é¤J!!!");
+		    	String input = JOptionPane.showInputDialog ("è«‹è¼¸å…¥ä¸€å€‹ 0~100 çš„åˆ†æ•¸\nè‹¥è¼¸å…¥ç¯„åœéŒ¯èª¤ï¼Œå‰‡é ˆé‡æ–°è¼¸å…¥!!!");
 		    	score = Integer.parseInt (input);
 		    	if (score > 100 || score < 0)
 		    		continue;
@@ -30,19 +30,19 @@ public class loops_score
 	    			higher60 ++;
 	    		else if (score >= 0 && score <= 60)
 	    			lower60 ++;
-	    		judge = JOptionPane.showConfirmDialog(null, "¬O§_Ä~Äò¿é¤J¤À¼Æ?", "½T»{", JOptionPane.YES_NO_OPTION);
+	    		judge = JOptionPane.showConfirmDialog(null, "æ˜¯å¦ç¹¼çºŒè¼¸å…¥åˆ†æ•¸?", "ç¢ºèª", JOptionPane.YES_NO_OPTION);
 	    		if(judge == 1)
 	    			break;
 	    	}
 
 	    	if (studentsNum > 0)
-	    		JOptionPane.showMessageDialog (null, "¥­§¡¤À¼Æ¬°: "  + (sum / studentsNum) + "\n" +
-	    											 "¤Î®æ¤H¼Æ¬°: "  + higher60 + "\n" +
-	    											 "¤£¤Î®æ¤H¼Æ¬°: " + lower60);
+	    		JOptionPane.showMessageDialog (null, "å¹³å‡åˆ†æ•¸ç‚º: "  + (sum / studentsNum) + "\n" + 
+						             "åŠæ ¼äººæ•¸ç‚º: "  + higher60 + "\n" + 
+						             "ä¸åŠæ ¼äººæ•¸ç‚º: " + lower60);
 	    	else
-	    		JOptionPane.showMessageDialog (null, "¨S¦³¥i­pºâªº¸ê®Æ");
+	    		JOptionPane.showMessageDialog (null, "æ²’æœ‰å¯è¨ˆç®—çš„è³‡æ–™");
 
-	    	judge = JOptionPane.showConfirmDialog(null, "¬O§_µ²§ô¸Óµ{¦¡©O?", "½T»{", JOptionPane.YES_NO_OPTION);
+	    	judge = JOptionPane.showConfirmDialog(null, "æ˜¯å¦çµæŸè©²ç¨‹å¼å‘¢?", "ç¢ºèª", JOptionPane.YES_NO_OPTION);
 
 	    	score = sum = studentsNum = lower60 = higher60 = 0;
 	    }
