@@ -9,8 +9,8 @@ public class ChangeMoneyWindow {
 	{
 		// Setup
 		String amountString = JOptionPane.showInputDialog (
-                "½Ğ¿é¤J¤@­Ó100000¥H¤Uªº¼Æ¦r\n" +
-                "¸Óµ{¦¡¯à¿é¥X³Ì¤Öªº¶r²¼¤Îµw¹ô¼Æ¶q\n");
+                "è«‹è¼¸å…¥ä¸€å€‹100000ä»¥ä¸‹çš„æ•¸å­—\n" +
+                "è©²ç¨‹å¼èƒ½è¼¸å‡ºæœ€å°‘çš„éˆ”ç¥¨åŠç¡¬å¹£æ•¸é‡\n");
 		int dollar, dollarOrigin, one, five, ten, fifty, oneHundred, fiveHundred, oneThousand;
 		dollar = Integer.parseInt (amountString);
 		dollarOrigin = dollar;
@@ -25,18 +25,16 @@ public class ChangeMoneyWindow {
 		one = dollar%5/1;
 		
 		// Show
-        JOptionPane.showMessageDialog (null,
-        		"±z¿é¤Jªº¼Æ¦r¬° : " + dollarOrigin + "\n" +
-        		"³Ì¤Öªº¶r²¼µw¹ô¼Æ¶q¬° : \n" + 
-        		oneThousand + " ­Ó¤@¤d¤¸¶r²¼\n" +
-        		fiveHundred + " ­Ó¤­¦Ê¤¸¶r²¼\n" +
-        		oneHundred + " ­Ó¤@¦Ê¤¸¶r²¼\n" + 
-        		fifty + " ­Ó¤­¤Q¤¸µw¹ô\n" +
-        		ten + " ­Ó¤Q¤¸µw¹ô\n" +
-        		five + " ­Ó¤­¤¸µw¹ô\n" +
-        		one + " ­Ó¤@¤¸µw¹ô\n");
-        System.exit (0);
-
+        	JOptionPane.showMessageDialog (null, "æ‚¨è¼¸å…¥çš„æ•¸å­—ç‚º : " + dollarOrigin + "\n" +
+					       "æœ€å°‘çš„éˆ”ç¥¨ç¡¬å¹£æ•¸é‡ç‚º : \n" + 
+					       oneThousand + " å€‹ä¸€åƒå…ƒéˆ”ç¥¨\n" +
+					       fiveHundred + " å€‹äº”ç™¾å…ƒéˆ”ç¥¨\n" +
+					       oneHundred + " å€‹ä¸€ç™¾å…ƒéˆ”ç¥¨\n" + 
+					       fifty + " å€‹äº”åå…ƒç¡¬å¹£\n" +
+					       ten + " å€‹åå…ƒç¡¬å¹£\n" +
+					       five + " å€‹äº”å…ƒç¡¬å¹£\n" +
+					       one + " å€‹ä¸€å…ƒç¡¬å¹£\n");
+        	System.exit (0);
 	}
 
 }
