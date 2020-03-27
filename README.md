@@ -3,7 +3,7 @@ Learn Java and Make Some Projects
 
 # Small Project
 ### [01：Subjects Print](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/01_subjects_print.java)   
-藉由keyboard.nextInt()、keyboard.next()、keyboard.nextInt()和矩陣的使用，儲存使用者輸入的學科名稱、學分後，將矩陣資料印出。    
+藉由keyboard.nextInt()、keyboard.next()、keyboard.nextInt()以及矩陣的使用，儲存使用者輸入的學科名稱、學分之後，再把矩陣內的資料印出。    
 
 ### [02：Change Money](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/02_change_money.java)   
 利用javax中的JOptionPane工具，寫出一對話框。該程式能自動地將使用者輸入的數字，換算成最少的鈔票、硬幣組合。    
