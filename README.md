@@ -11,3 +11,5 @@ Learn Java and Make Some Projects
 >
 ### [03：Loops Score](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/03_loops_score.java)
 >
+>
+![](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/Loops%20Score%20Result.JPG)
