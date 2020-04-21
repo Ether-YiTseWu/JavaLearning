@@ -21,7 +21,7 @@ Learn Java and Make Some Projects
 >
 >
 ### [04：Heater](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/04_Heater.java)    
-藉由物件導向程式設計中的物件、多載、建構子、Static Method 等概念，寫出Heater這個類別。包括建構子，一共使用了Heater、printTemp、warmer、setIncrement、cooler、printHeaterNum、getHeaterNum、getTemp。其中，Heater建構子有用到多載的概念；cooler和warmer裡則有另外一個函數，limitTemp。當升溫或降溫後，若溫度是該加熱器無法承受的，limitTemp會印出錯誤訊息，並回傳1，使得cooler和warmer把溫度還原成加熱器能承受的溫度。若溫度是該加熱器可以承受的，則回傳0，使得cooler和warmer印出升溫或降溫後的溫度訊息。至於這些方法的具體定義，則放在附檔的Heater.java中。
+藉由物件導向程式設計中的物件、多載、建構子、Static Method 等概念，寫出Heater這個類別。我一共寫了 printTemp、warmer、setIncrement、cooler、printHeaterNum、getHeaterNum、getTemp等多個方法。其中，Heater 建構子有用到多載的概念；cooler和warmer裡則有另外一個函數，limitTemp。當升溫或降溫後，若溫度是該加熱器無法承受的，limitTemp會印出錯誤訊息，並回傳1，使得cooler和warmer把溫度還原成加熱器能承受的溫度。若溫度是該加熱器可以承受的，則回傳0，使得cooler和warmer印出升溫或降溫後的溫度訊息。至於這些方法的具體定義，則放在附檔的Heater.java中。
 >
 >
 ![](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/Heater%20Result.JPG)
