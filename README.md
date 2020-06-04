@@ -17,6 +17,6 @@ Learn Java and Make Some Projects
 藉由物件導向程式設計中的物件、多載、建構子、Static Method 等概念，寫出 Heater 這個類別。我一共寫了 printTemp、warmer、setIncrement、cooler、printHeaterNum、getHeaterNum、getTemp 等多個方法。其中，Heater 建構子有用到多載的概念；cooler 和 warmer 裡則有另外一個函數，limitTemp。當升溫或降溫後，若溫度是該加熱器無法承受的， limitTemp 會印出錯誤訊息，並回傳1，使得 cooler 和 warmer 把溫度還原成加熱器能承受的溫度。若溫度是該加熱器可以承受的，則回傳0，使得 cooler 和 warmer 印出升溫或降溫後的溫度訊息。至於這些方法的具體定義，則放在附檔的 [Heater.java](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/04/04_Heater.java) 中。
 >
 ### [05：Exception](https://github.com/tailer954/JavaLearning/tree/master/Small%20Project/05)   
-NameException這個類別繼承自Exception，因此在main函數中可使用來自Exception的方法，getMessage()、printStackTrace()。另外，PersonalData中定義何時要拋出Exception。PersonalData中的setName方法throws NameException，並使用JAVA自帶的函數判斷使用者在輸入名字的時候，是否含有數字。若有數字混進姓名裡面的話，則throw new NameException。如此一來，在main函數中，便會執行catch (NameException e) 裡面的程式，印出錯誤訊息。最後，無論程式是否有拋出例外，都會執行finally中的程式，把使用者輸入的訊息顯示出來。
+NameException這個類別繼承自Exception，因此在main函數中可使用來自Exception的方法，getMessage()、printStackTrace()。另外，PersonalData中定義何時要拋出Exception。PersonalData中的setName方法throws NameException，並使用JAVA自帶的函數判斷使用者在輸入名字的時候，是否含有數字。若有數字混進姓名裡面的話，則throw new NameException。如此一來，在main函數中，便會執行catch (NameException e) 裡面的程式，印出錯誤訊息。最後，無論程式是否有拋出例外，都會執行finally中的程式，把使用者輸入的訊息顯示出來。      
 ![](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/05/Exception%20Warning.PNG)
 >
