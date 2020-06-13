@@ -23,4 +23,4 @@
 ![](https://github.com/tailer954/JavaLearning/blob/master/Small%20Project/05/Exception%20Warning.PNG)
 >
 ### [06：DOME Project](https://github.com/tailer954/JavaLearning/tree/master/Small%20Project/06)   
-由 *BlueJ* 的 *DOME Project* 擴增改寫而來。主要增加讓使用者輸入 *item* 、 將 *item* 寫入 *CSV* 的功能。 *createFile* 這個方法可以建立多種類型的檔案，只要輸入正確的副檔名即可。將檔案建立完畢後，呼叫 *writeCSV* 。 *writeCSV* 中，先用 *PrintWriter* 建立 *outputStream* 物件，爾後在 *try* 中以 *outputStream.println* 方法，將已存在 *Database* 的資訊寫入。之後讓使用者自行輸入一個新的 *Item* 物件資訊，之後同樣用 *outputStream.println* 方法，將之寫進 *CSV* 檔案中。
+由 *BlueJ* 的 *DOME Project* 擴增改寫而來。我增加讓使用者輸入 *item* 後，再把 *item* 寫入 *CSV* 的功能。 *createFile* 這個方法可以建立多種類型的檔案，只要輸入正確的副檔名即可。將檔案建立完畢後，呼叫 *writeCSV* 。 *writeCSV* 中，先用 *PrintWriter* 建立 *outputStream* 物件，爾後在 *try* 中以 *outputStream.println* 方法，將已存在 *Database* 的資訊寫入。之後讓使用者自行輸入一個新的 *Item* 物件資訊，之後同樣用 *outputStream.println* 方法，將之寫進 *CSV* 檔案中。
