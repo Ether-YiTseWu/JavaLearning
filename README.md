@@ -1,6 +1,6 @@
-# Overview
-學習 *JAVA* ，並做些小小專案。最後的 *Final Project* 我以 *BlueJ* 的一個專案為基礎，做出圖片檢視器。有興趣者可往下查看，或下載該專案之[可執行檔](https://github.com/tailer954/JavaLearning/blob/master/Final%20Project/0056D057_FinalProject.jar)
-
+## Overview
+學習 *JAVA* ，並做些小小專案。最後的 *Final Project* 我以 *BlueJ* 的一個專案為基礎，做出圖片檢視器。有興趣者可往下查看，或自行下載該專案之[可執行檔](https://github.com/tailer954/JavaLearning/blob/master/Final%20Project/0056D057_FinalProject.jar)
+>
 ## Small Project
 ### [01：Subjects Print](https://github.com/tailer954/JavaLearning/tree/master/Small%20Project/01)   
 藉由 *keyboard.nextInt() 、 keyboard.next() 、 keyboard.nextInt()* 以及矩陣的使用，儲存使用者輸入的學科名稱、學分之後，再把矩陣內的資料印出    
@@ -25,7 +25,7 @@
 ### [06：DOME Project](https://github.com/tailer954/JavaLearning/tree/master/Small%20Project/06)   
 由 *BlueJ* 的 *DOME Project* 擴增改寫而來。我增加讓使用者輸入 *item* 後，再把 *item* 寫入 *CSV* 檔案的功能。 *createFile* 這個方法可以建立多種類型的檔案，只要輸入正確的副檔名即可。將檔案建立完畢後，呼叫 *writeCSV* 。 *writeCSV* 中，先用 *PrintWriter* 建立 *outputStream* 物件，爾後在 *try* 中以 *outputStream.println* 方法，將已存在 *Database* 的資訊寫入。之後讓使用者自行輸入一個新的 *Item* 物件資訊，之後同樣用 *outputStream.println* 方法，將之寫進 *CSV* 檔案中
 
-# Final Project
+## Final Project
 ### 摘要 :   
 以 *BlueJ* 上面， *chapter13* 的 *imageviewer-final* 為基礎做延伸。我新增了*CSV Record、Cut、Rotate、DisplayOnlyRed Filter、DisplayOnlyGreen Filter、DisplayOnlyBlue Filter、Mirror Button*、圖片長寬的顯示、經過濾波處理後將原來的圖片顯示出來…等功能
 ### 介面 :   
