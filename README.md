@@ -1,5 +1,5 @@
 ## Overview
-學習 *JAVA* ，並做些小小專案。最後的 *Final Project* 我以 *BlueJ* 的一個專案為基礎，做出圖片檢視器。有興趣者可往下查看，或自行下載該專案之[可執行檔](https://github.com/tailer954/JavaLearning/blob/master/Final%20Project/0056D057_FinalProject.jar)
+學習 *JAVA* ，並做些小小專案。最後的 *Final Project* 以 *BlueJ* 專案為基礎，做出圖片檢視器。有興趣者可往下查看，或自行下載該專案之[可執行檔](https://github.com/tailer954/JavaLearning/blob/master/Final%20Project/0056D057_FinalProject.jar)
 >
 ## Small Project
 ### [01：Subjects Print](https://github.com/tailer954/JavaLearning/tree/master/Small%20Project/01)   
